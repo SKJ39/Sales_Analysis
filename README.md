@@ -40,10 +40,12 @@ The main entry point and user interface
     - Uses a `Scanner` to capture user input
     - Runs an indefinite loop, allowing the user to view specific analytical data or quit the application
     - Calls `store.print()` to display results based on user selection
+   
+## Additional Details
 
-**Note 1**: The UML diagram of the program is in `Analysis_UML.jpg`
+The UML diagram of the program is in `Analysis_UML.jpg`
 
-**Note 2**: More details about each class are in their respective `.txt` files.
+More details about each class are in their respective `.txt` files.
 
 ## Disclaimer:
 This project was created for academic purposes.
