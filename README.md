@@ -47,5 +47,5 @@ The UML diagram of the program is in `Analysis_UML.jpg`
 
 More details about each class are in their respective `.txt` files.
 
-## Disclaimer:
+## Disclaimer
 This project was created for academic purposes.
