@@ -1,0 +1,50 @@
+*******************************Design start************************************
+ Design
+	4 parts - 
+	Variables
+	Input
+	Processing 
+	Output
+
+Design
+Variables
+	(Store[]) private array containing several Store objects, each having a 2D array of sales for 35 days - stores
+
+
+Input
+	A default constructor with no parameter - 
+	public Franchise() {
+	}
+	
+	An overloaded constructor with a value parse from an external file read by the FileIO class
+	public Franchise(int num) {
+		stores = new Store[num];
+	}
+	
+	Setter method that assign values passed from another class
+	public void setStores(Store stores, int i) {
+		this.stores[i] = stores;
+	}
+
+
+Processing
+	Getter methods that return static/private variable to the caller
+	public Store getStores(int i) {
+		return stores[i];
+	}
+
+	A method that calls all of its Store objects to process various operations inside the class
+	public void calc() {
+		for (int i = 0; i < stores.length; i++ ) {
+			stores[i].analyzeresults();
+		}
+	}
+
+
+Printing
+	A method that prints number of Store objects
+		System.out.printf("Number of stores: %d\n", stores.length);
+
+	A method that prints one of the Store objects operation
+		stores[i].print(op);
+*******************************Design end************************************

@@ -1,0 +1,197 @@
+//Testing various operations (without user quitting until the very end)
+Welcome back, [user1] 
+The Franchise App has been updated. 
+The app now has the sales data for 6 stores for the last 5 weeks. 
+Would you like to view the data? ("yes" or "y" to continue) y
+
+//Testing semi-input validation
+Select a store # (1-6) you want to see analytics for(enter 0 to quit): 9
+Error, invalid store #
+Select a store # (1-6) you want to see analytics for(enter 0 to quit): -1
+Error, invalid store #
+
+Select a store # (1-6) you want to see analytics for(enter 0 to quit): 1
+Operations: 
+	Enter 1 for all uncalculated data. 
+	Enter 2 for total sales for each week. 
+	Enter 3 for average daily sales for each week. 
+	Enter 4 for total sales for all weeks. 
+	Enter 5 for average weekly sales. 
+	Enter 6 for week with the highest amount in sales. 
+	Enter 7 for week with the lowest amount in sales. 
+	Enter 8 for all analytical data. 
+	Enter 0 to quit. 
+Selection: 1
+$2541.56 $2258.96 $2214.00 $2256.00 $2154.00 $2398.00 $2597.00 
+$2684.00 $2771.00 $2858.00 $2945.00 $3032.00 $3119.00 $3206.00 
+$3293.00 $3380.00 $3467.00 $3554.00 $3641.00 $3728.00 $3815.00 
+$3902.00 $3989.00 $4076.00 $4163.00 $4250.00 $4337.00 $4424.00 
+$4511.00 $4598.00 $4685.00 $4772.00 $4859.00 $4946.00 $5033.00 
+Would you like to continue? ("yes" or "y" to continue) y
+Select a store # (1-6) you want to see analytics for(enter 0 to quit): 2
+Operations: 
+	Enter 1 for all uncalculated data. 
+	Enter 2 for total sales for each week. 
+	Enter 3 for average daily sales for each week. 
+	Enter 4 for total sales for all weeks. 
+	Enter 5 for average weekly sales. 
+	Enter 6 for week with the highest amount in sales. 
+	Enter 7 for week with the lowest amount in sales. 
+	Enter 8 for all analytical data. 
+	Enter 0 to quit. 
+Selection: 2
+Total sales for each week:                   $12919.52	$17115.00	$21378.00	$25641.00	$29904.00	
+Would you like to continue? ("yes" or "y" to continue) y
+Select a store # (1-6) you want to see analytics for(enter 0 to quit): 3
+Operations: 
+	Enter 1 for all uncalculated data. 
+	Enter 2 for total sales for each week. 
+	Enter 3 for average daily sales for each week. 
+	Enter 4 for total sales for all weeks. 
+	Enter 5 for average weekly sales. 
+	Enter 6 for week with the highest amount in sales. 
+	Enter 7 for week with the lowest amount in sales. 
+	Enter 8 for all analytical data. 
+	Enter 0 to quit. 
+Selection: 3
+Average daily sales for each week:           $2845.65	$3445.00	$4054.00	$4663.00	$5272.00	
+Would you like to continue? ("yes" or "y" to continue) y
+Select a store # (1-6) you want to see analytics for(enter 0 to quit): 4
+Operations: 
+	Enter 1 for all uncalculated data. 
+	Enter 2 for total sales for each week. 
+	Enter 3 for average daily sales for each week. 
+	Enter 4 for total sales for all weeks. 
+	Enter 5 for average weekly sales. 
+	Enter 6 for week with the highest amount in sales. 
+	Enter 7 for week with the lowest amount in sales. 
+	Enter 8 for all analytical data. 
+	Enter 0 to quit. 
+Selection: 4
+Total sales for all 5 weeks:                 $160226.81
+Would you like to continue? ("yes" or "y" to continue) y
+Select a store # (1-6) you want to see analytics for(enter 0 to quit): 5
+Operations: 
+	Enter 1 for all uncalculated data. 
+	Enter 2 for total sales for each week. 
+	Enter 3 for average daily sales for each week. 
+	Enter 4 for total sales for all weeks. 
+	Enter 5 for average weekly sales. 
+	Enter 6 for week with the highest amount in sales. 
+	Enter 7 for week with the lowest amount in sales. 
+	Enter 8 for all analytical data. 
+	Enter 0 to quit. 
+Selection: 5
+Average weekly sales:                        $3561.58
+Would you like to continue? ("yes" or "y" to continue) y
+Select a store # (1-6) you want to see analytics for(enter 0 to quit): 6
+Operations: 
+	Enter 1 for all uncalculated data. 
+	Enter 2 for total sales for each week. 
+	Enter 3 for average daily sales for each week. 
+	Enter 4 for total sales for all weeks. 
+	Enter 5 for average weekly sales. 
+	Enter 6 for week with the highest amount in sales. 
+	Enter 7 for week with the lowest amount in sales. 
+	Enter 8 for all analytical data. 
+	Enter 0 to quit. 
+//Testing semi-input validation
+Selection: -1
+Invalid response. Please select an operation: 10
+Invalid response. Please select an operation: 6
+Week # with the highest amount in sales:     Week 5
+Would you like to continue? ("yes" or "y" to continue) y
+Select a store # (1-6) you want to see analytics for(enter 0 to quit): 1
+Operations: 
+	Enter 1 for all uncalculated data. 
+	Enter 2 for total sales for each week. 
+	Enter 3 for average daily sales for each week. 
+	Enter 4 for total sales for all weeks. 
+	Enter 5 for average weekly sales. 
+	Enter 6 for week with the highest amount in sales. 
+	Enter 7 for week with the lowest amount in sales. 
+	Enter 8 for all analytical data. 
+	Enter 0 to quit. 
+Selection: 7
+Week # with the lowest amount in sales:      Week 1
+Would you like to continue? ("yes" or "y" to continue) yes
+Select a store # (1-6) you want to see analytics for(enter 0 to quit): 4
+Operations: 
+	Enter 1 for all uncalculated data. 
+	Enter 2 for total sales for each week. 
+	Enter 3 for average daily sales for each week. 
+	Enter 4 for total sales for all weeks. 
+	Enter 5 for average weekly sales. 
+	Enter 6 for week with the highest amount in sales. 
+	Enter 7 for week with the lowest amount in sales. 
+	Enter 8 for all analytical data. 
+	Enter 0 to quit. 
+Selection: 8
+Total sales for each week:                   $23573.38	$27768.86	$32031.86	$36294.86	$40557.86	
+Average daily sales for each week:           $3367.63	$3966.98	$4575.98	$5184.98	$5793.98	
+Total sales for all 5 weeks:                 $160226.81
+Average weekly sales:                        $4577.91
+Week # with the highest amount in sales:     Week 5
+Week # with the lowest amount in sales:      Week 1
+Would you like to continue? ("yes" or "y" to continue) y
+Select a store # (1-6) you want to see analytics for(enter 0 to quit): 4
+Operations: 
+	Enter 1 for all uncalculated data. 
+	Enter 2 for total sales for each week. 
+	Enter 3 for average daily sales for each week. 
+	Enter 4 for total sales for all weeks. 
+	Enter 5 for average weekly sales. 
+	Enter 6 for week with the highest amount in sales. 
+	Enter 7 for week with the lowest amount in sales. 
+	Enter 8 for all analytical data. 
+	Enter 0 to quit. 
+Selection: 9
+Invalid response. Please select an operation: 8
+Total sales for each week:                   $23573.38	$27768.86	$32031.86	$36294.86	$40557.86	
+Average daily sales for each week:           $3367.63	$3966.98	$4575.98	$5184.98	$5793.98	
+Total sales for all 5 weeks:                 $160226.81
+Average weekly sales:                        $4577.91
+Week # with the highest amount in sales:     Week 5
+Week # with the lowest amount in sales:      Week 1
+
+//User quit the app
+Would you like to continue? ("yes" or "y" to continue) n
+Affirmative. Thank you for choosing our app! Have a nice day.
+
+//Testing various exit points in the app
+Welcome back, [user1] 
+The Franchise App has been updated. 
+The app now has the sales data for 6 stores for the last 5 weeks. 
+Would you like to view the data? ("yes" or "y" to continue) n
+Affirmative. Thank you for choosing our app! Have a nice day.
+
+Welcome back, [user1] 
+The Franchise App has been updated. 
+The app now has the sales data for 6 stores for the last 5 weeks. 
+Would you like to view the data? ("yes" or "y" to continue) yes
+Select a store # (1-6) you want to see analytics for(enter 0 to quit): 0
+Affirmative. Thank you for choosing our app! Have a nice day.
+
+Welcome back, [user1] 
+The Franchise App has been updated. 
+The app now has the sales data for 6 stores for the last 5 weeks. 
+Would you like to view the data? ("yes" or "y" to continue) y
+Select a store # (1-6) you want to see analytics for(enter 0 to quit): -1
+Error, invalid store #
+Select a store # (1-6) you want to see analytics for(enter 0 to quit): 10
+Error, invalid store #
+Select a store # (1-6) you want to see analytics for(enter 0 to quit): 3
+Operations: 
+	Enter 1 for all uncalculated data. 
+	Enter 2 for total sales for each week. 
+	Enter 3 for average daily sales for each week. 
+	Enter 4 for total sales for all weeks. 
+	Enter 5 for average weekly sales. 
+	Enter 6 for week with the highest amount in sales. 
+	Enter 7 for week with the lowest amount in sales. 
+	Enter 8 for all analytical data. 
+	Enter 0 to quit. 
+Selection: -1
+Invalid response. Please select an operation: 9
+Invalid response. Please select an operation: 0
+Affirmative. Thank you for choosing our app! Have a nice day.

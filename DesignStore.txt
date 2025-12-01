@@ -1,0 +1,73 @@
+*******************************Design start************************************
+ Design
+	4 parts - 
+	Variables
+	Input
+	Processing 
+	Output
+
+Design
+Variables
+	(float[]) private array containing the number of sales per day for 5 weeks
+		salesbyweek[][] = new float[5][7];
+			*5 weeks - 7 days per week.
+	(float[]) private arrays that holds
+		a) total sales for each week - totalsalesforweek[]
+		b) average daily sales for each week - avgsalesforweek[]
+	(float) private variables that hold
+		c) total sales for all weeks - avgsalesforweek
+		d) average weekly sales - averageweeklysales
+	(int) private variables that hold
+		e) week with the highest amount in sales - weekHigh
+		f) week		...lowest amount... - weekLow
+
+
+Input
+	A default constructor with no parameter - 
+	public Store() {
+		this.salesbyweek = new float[5][7];
+	}
+	
+
+	Setter method that assign values passed from another class
+	public void setsaleforweekdayintersection(int week, int day, float sale) {
+		this.salesbyweek[week][day] = sale;
+	}
+
+
+Processing
+	Getter methods that return static/private variable to the caller
+	public float getDaySales(int week, int day) {
+		return salesbyweek[week][day];
+	}
+
+	Methods for various operations:
+		a. The total sales for each week.
+			sum += salesbyweek[week][0-6]
+		b. The average daily sales for each week.
+			avg = sum / 7;
+		c. The total sales for all the weeks.
+			total += alesbyweek[0-4]
+		d. The average weekly sales.
+			sum += salesbyweek[0-4]
+			avg = sum/5;
+		e. The week with the highest amount in sales.
+		f. The week with the lowest amount in sales.
+
+		g. Call a-g
+
+
+Printing
+	A method that prints an array of sales
+	for (float[] week : this.salesbyweek) {
+		for (float day : week) {
+			System.out.printf("%f ", day);
+		}
+	}
+
+	A method that prints all analytical data
+	System.out.printf("Total sales for each week: ");
+	for (float sales : weekly) {
+		System.out.printf("%.2f ", sales);
+	}
+*******************************Design end************************************

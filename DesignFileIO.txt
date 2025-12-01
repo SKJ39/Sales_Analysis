@@ -1,0 +1,40 @@
+*******************************Design start************************************
+ Design
+	4 parts - 
+	Variables
+	Input
+	Processing 
+	Output
+
+Design
+Variables
+	(String) private variable that holds that name of the file for reading value - fname
+	(boolean) private variable that set whether or not to print the reading process of this class - DEBUG
+	(FileReader) read the external file - file
+	(BufferedReader) buffers the characters in order to enable efficient reading of text data - buff
+	(StringTokenizer) break a line into small tokens - st
+
+
+Input
+	A default constructor with the file name for reading - 
+	public FileIO(String fname) {
+		this.fname = fname;
+	}
+	
+	Instantiate the FileReader and BufferedReader class to read the inputted file
+		FileReader file = new FileReader(fname);
+
+
+Processing
+	FileReader and BufferedReader classes read the file
+		1. Read the first line and instantiate the Franchise class, parse in the size of the array of Store objects
+		2. Ignore the second line (header)
+		3. From the third line, parse in data from each line to a separate method that populate information in each Store object in Franchise - buildStore()
+
+
+Printing
+	If DEBUG == true:
+		print the reading process of the FileIO class to make sure the read and populated values are the same
+	else:
+		don't print
+*******************************Design end************************************

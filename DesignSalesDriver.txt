@@ -1,0 +1,38 @@
+*******************************Design start************************************
+ Design
+	4 parts - 
+	Variables
+	Input
+	Processing 
+	Output
+
+Design
+Variables
+	(Scanner) variable that allows the user to interact with the "app"
+	(FileIO) class object that reads an external file and assign values into another object - a1
+	(Franchise) class object containing several instances of the Store class created by FileIO - f
+	(Store) class object containing an array of the number of sales per day for 5 weeks - store
+	(boolean) variables that allows the app to run indefinitely until the user enter a designated response to quit (can also be used to prompt the user to enter a different response should it cause an "invalid error") - run
+
+
+Input
+	The Scanner class takes the user's input to initiate or quit the app, or choose a specific analytical data to print
+		static Scanner in = new Scanner(System.in);
+
+	Parse in the path to the file for reading
+		FileIO a1 = new FileIO("salesdata.txt");
+
+
+Processing
+	A method that runs indefinitely until the user enter a "quit" response
+		if (response.equals("yes)" { continue; }
+		else { return; }	//quit the app
+
+	A statement that calls the Store object to compute all analytical data
+		f.calc();
+		(in Franchise) stores[i].analyzeresults();
+
+Printing
+	Call the print() method from the Store object based on the user's input
+	store.print(int operation);
+*******************************Design end************************************}

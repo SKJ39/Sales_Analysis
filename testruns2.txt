@@ -1,0 +1,20 @@
+Welcome back, [user1] 
+The Franchise App has been updated. 
+The app now has the sales data for 6 stores for the last 5 weeks. 
+Would you like to view the data? ("yes" or "y" to continue) Select a store # (1-6) you want to see analytics for(enter 0 to quit): Operations: 
+	Enter 1 for all uncalculated data. 
+	Enter 2 for total sales for each week. 
+	Enter 3 for average daily sales for each week. 
+	Enter 4 for total sales for all weeks. 
+	Enter 5 for average weekly sales. 
+	Enter 6 for week with the highest amount in sales. 
+	Enter 7 for week with the lowest amount in sales. 
+	Enter 8 for all analytical data. 
+	Enter 0 to quit. 
+Selection: Total sales for each week:                   $16419.52	$20615.00	$24878.00	$29141.00	$33404.00	
+Average daily sales for each week:           $2345.65	$2945.00	$3554.00	$4163.00	$4772.00	
+Total sales for all 5 weeks:                 $124457.52
+Average weekly sales:                        $3555.93
+Week # with the highest amount in sales:     Week 5
+Week # with the lowest amount in sales:      Week 1
+Would you like to continue? ("yes" or "y" to continue) Affirmative. Thank you for choosing our app! Have a nice day.
