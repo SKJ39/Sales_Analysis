@@ -1,5 +1,5 @@
 # Sales Analysis Application
-This application is designed to process and analyze daily sales data from multiple store locations within a franchise. It uses an object-oriented approach to manage sales data, perform calculations, and present results to the user.
+This project is a Java-based application designed to track and analyze sales data for a franchise. It reads daily sales figures from a text file for multiple stores, processes five weeks of data, and calculates key performance metrics such as total sales, average sales, and highest/lowest performing weeks. The system utilizes a console-based interface for user interaction.
 
 ## Component Architecture
 The system is broken down into 4 classes:
