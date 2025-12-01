@@ -5,6 +5,7 @@ This project is a Java-based application designed to track and analyze sales dat
 The system is broken down into 4 classes:
 
 `FileIO`
+
 This class handles file input and data parsing
   - **Variables**: Stores the necessary variables for reading and parsing files (path, tokenizer, etc.)
   - **Functionality**:
@@ -13,6 +14,7 @@ This class handles file input and data parsing
     - Includes a debug mode to verify data reading accuracy
 
 `Franchise`
+
 This class acts as the container for all `Store` objects
   - **Variables**: Stores a private array of `Store` objects
   - **Functionality**:
@@ -20,6 +22,7 @@ This class acts as the container for all `Store` objects
     - Includes methods to retrieve specific stores and print the total number of stores
 
 `Store`
+
 This class represents a single store and handles its specific data analysis
   - **Variables**: Uses a floating-point array (`salesbyweek[][]`) to store sales figures for 5 weeks (7 days per week)
   - **Functionality**:
@@ -30,6 +33,7 @@ This class represents a single store and handles its specific data analysis
     - Provides methods to print the raw sales array and the calculated analytical data
    
 `SalesDriver`
+
 The main entry point and user interface
   - **Functionality**:
     - Initializes the `FileIO` to load data and creates the `Franchise` object
